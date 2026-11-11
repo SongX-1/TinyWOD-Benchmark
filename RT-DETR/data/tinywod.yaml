@@ -1,0 +1,9 @@
+# 类别声明模板；实际路径以根目录 config.py 为准。
+# YOLO 数据根目录已经有正确 manifest/YAML 时无需复制或修改本文件。
+path: D:/dataset
+train: images/train
+val: images/val
+test: images/test
+nc: 1
+names:
+  0: target

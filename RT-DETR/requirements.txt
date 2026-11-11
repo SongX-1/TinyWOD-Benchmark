@@ -1,0 +1,6 @@
+# Python 3.10+; choose a matching torch/torchvision CUDA build for your GPU.
+# install_dependencies.py preserves an existing torch/torchvision installation.
+# Do not install the old rtdetr_pytorch/requirements.txt into the adapted environment.
+torch>=2.7
+torchvision>=0.22
+-r requirements_training.txt

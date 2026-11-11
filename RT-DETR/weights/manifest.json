@@ -1,0 +1,16 @@
+{
+  "initialization": "backbone_pretrained",
+  "architecture": "PResNet50 variant=d, official RT-DETR v1",
+  "file": "ResNet50_vd_ssld_v2_pretrained_from_paddle.pth",
+  "bytes": 94419322,
+  "sha256": "641dc59835d5228e6013ac45acb633592ec825144fb3d78055bc07699f404353",
+  "source": "https://github.com/lyuwenyu/storage/releases/download/v0.1/ResNet50_vd_ssld_v2_pretrained_from_paddle.pth",
+  "note": "Official ImageNet/SSLD backbone, not a complete TinyWOD detector. All reads during training are local.",
+  "optional_detector": {
+    "included": false,
+    "filename": "rtdetr_r50vd_6x_coco_from_paddle.pth",
+    "bytes": 172373587,
+    "sha256": "dfaafa5a3d29958a360c35f1fad553a6f287bfae9967e8ee007e65cff21ddf45",
+    "source": "https://github.com/lyuwenyu/storage/releases/download/v0.1/rtdetr_r50vd_6x_coco_from_paddle.pth"
+  }
+}

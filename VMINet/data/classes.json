@@ -1,0 +1,7 @@
+{
+  "task": "TinyWOD bounding-box detection",
+  "source_label_format": "class cx cy width height; normalized YOLO",
+  "source_and_export_ids": {"0": "target"},
+  "detector_internal_ids": {"0": "background", "1": "target"},
+  "note": "Documentation only; actual paths/classes are in config.py. Does not certify unseen source label ordering."
+}

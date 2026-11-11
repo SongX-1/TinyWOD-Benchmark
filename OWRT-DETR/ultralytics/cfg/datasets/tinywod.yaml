@@ -1,0 +1,8 @@
+# TinyWOD 数据集(单类 target)。仅供模板；实际训练由项目生成 dataset.yaml。
+path: D:/dataset
+train: images/train
+val: images/val
+test: images/test
+nc: 1
+names:
+  0: target

@@ -1,0 +1,12 @@
+# OWRT-DETR 数据配置(由 prepare_owrt_data.py 构建, train_owrt.py 自动维护)
+# 数据源: D:/dataset (TinyWOD 数据集)
+# 划分: 有目标图像 train/val/test = 70%/20%/10% (seed=0)
+path: D:/dataset
+train: images/train
+val: images/val
+test: images/test
+
+# 类别(1 类: target)
+nc: 1
+names:
+  0: target

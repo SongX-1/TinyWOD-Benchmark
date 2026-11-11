@@ -1,0 +1,15 @@
+# Python 3.10--3.12. PyTorch与torchvision必须使用配对版本。
+# CUDA用户先按README安装对应CUDA版torch/torchvision，再安装此文件。
+torch==2.6.0
+torchvision==0.21.0
+numpy==1.26.4
+scipy>=1.11,<2
+Pillow>=10,<13
+matplotlib>=3.8,<4
+pycocotools==2.0.11
+timm==0.9.16
+addict==2.4.0
+yapf==0.40.1
+termcolor>=2.4,<3
+PyYAML>=6,<7
+# 不需要torchaudio、panopticapi、wandb或编译CUDA扩展。

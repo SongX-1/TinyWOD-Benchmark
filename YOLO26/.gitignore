@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+runs/
+datasets/
+verification/
+weights/*.pt
+weights/*.pth
+weights/*.pth.tar
+*.pt.tmp
+*.pth
+*.pth.tar
+*.ckpt
+.idea/

@@ -1,0 +1,8 @@
+# 仅供阅读的模板；实际训练 YAML 由 config.py 自动生成，不要在这里重复改路径。
+path: ../datasets/tinywod
+train: images/train
+val: images/val
+test: images/test
+nc: 1
+names:
+  0: target

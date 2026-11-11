@@ -1,0 +1,15 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# 预训练权重与实验产物（不随源码分发）
+weights/*.pth
+weights/*.pt
+weights/*.pth.tar
+weights/*.tar
+runs/
+data_cache/
+_smoke_tests/
+*.pth
+*.pth.tar
+*.ckpt
